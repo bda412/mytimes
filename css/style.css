@@ -9,6 +9,11 @@ div {
     display: block;
 }
 
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+
 h3 {
     display: block;
 }
@@ -22,6 +27,8 @@ p {
 .main {
     display: flex;
     justify-content: center;
+    padding: 25px;
+    min-width: 1200px;
 }
 
 .column {
@@ -39,6 +46,9 @@ p {
 
 .column.medium {
     width: 300px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0;
 }
 
 .column.small {
@@ -93,18 +103,26 @@ nav li a {
     font-family: Georgia;
     font-weight: bold;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
 
 #cats {
     background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
     color: white;
-    margin: 0;
+    margin: 10px;
     font-family: Georgia;
     font-size: 30px;
     font-weight: bold; 
     height: 300px;
     flex-grow: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
 }
 
 #earth {
@@ -118,6 +136,9 @@ nav li a {
     flex-grow: 1;
     display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
 }
 
 #camera {
@@ -131,6 +152,9 @@ nav li a {
     flex-grow: 1;
     display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .img-headline {
@@ -142,7 +166,7 @@ nav li a {
     font-size: 16px;
 }
 
-span {
+.bites {
     display: block;
     background-color: whitesmoke;
     color: dimgray;
@@ -151,6 +175,45 @@ span {
     font-size: 12px;
     padding: 10px;
     
+}
+
+footer{
+    display: flex;
+    background-color: mediumaquamarine;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+#footer-brand {
+    text-align: center;
+}
+
+#footer-title {
+    color: white;
+    font-family: Georgia;
+    display: inline-block;
+    font-size: 16px;
+    border-right: 2px solid white;
+    padding-right: 25px;
+}
+
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+
+footer span a {
+    display: inline-block;
+    color: black;
+    margin: 10px;
+}
+
+footer p {
+    margin: 0;
 }
 
 
