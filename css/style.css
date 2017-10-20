@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    font-family: Verdana;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#brand h3 {
+    display: inline;
+    margin: 10px;
+    color: mediumaquamarine;
+}
+
+nav li  {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+
+nav li a {
+    color: black;
+}
