@@ -6,8 +6,18 @@ header {
 }
 
 div {
-    border: 1px solid black;
+    display: block;
 }
+
+h3 {
+    display: block;
+}
+
+p {
+    display: block;
+}
+
+
 
 .main {
     display: flex;
@@ -17,10 +27,14 @@ div {
 .column {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .column.large {
     width: 630px;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items:center;
 }
 
 .column.medium {
@@ -29,6 +43,13 @@ div {
 
 .column.small {
     width: 240px;
+    
+}
+
+.column p {
+    font-size: 17px;
+    color: black;
+    font-family: Georgia;
 }
 
 #brand {
@@ -52,3 +73,84 @@ nav li  {
 nav li a {
     color: black;
 }
+
+.second-stories {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.text-story {
+    height: 250px;
+}
+
+#main-story {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    font-family: Georgia;
+    font-weight: bold;
+    height: 300px;
+}
+
+#cats {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png');
+    color: white;
+    margin: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold; 
+    height: 300px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#earth {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+    color: white;
+    margin: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+}
+
+#camera {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+    color: white;
+    margin: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+}
+
+.img-headline {
+    display: flex;
+}
+
+.column.small h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+span {
+    display: block;
+    background-color: whitesmoke;
+    color: dimgray;
+    font-family: Verdana;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+
+
